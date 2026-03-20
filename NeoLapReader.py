@@ -38,6 +38,8 @@ class LogAnalyzerGUI:
         self.file_status = ttk.Label(file_frame, text="No files selected", 
                                     foreground="gray")
         self.file_status.grid(row=0, column=1)
+
+        #this should probably be where the popup goes for the session statistics
         
         # Analysis section
         analysis_frame = ttk.LabelFrame(main_frame, text="Analysis", padding="10")
